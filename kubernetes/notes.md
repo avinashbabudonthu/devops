@@ -1,9 +1,9 @@
-## Install Kubectl in windows
+## Install Kubectl in windows using scoop
 * Install using scoop: scoop install kubectl
 * [Refer documentation](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-windows)
 * Check version: kubectl version
 
-## Install Kubectl in windows
+## Install Kubectl in windows using chocolatey
 * Install chocolatey. Refer cerebro for steps
 * choco install minikube
 * choco install kubernetes-cli
