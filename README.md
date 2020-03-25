@@ -3,6 +3,15 @@
 * [Git](git)
 * [Kubernetes](kubernetes)
 * [Prometheus](prometheus)
+* Security Scaning: Varacode
+* Documentation Tool: confluence
+* Agile: jira, versionone etc
+* Queues: RabitMQ, Azure service bus etc
+* Cloud: Azure, AWS, Pivotel, GCP, Bluemix, Heroku
+* scripting languages: Groovy, Ruby, Python, shell, Batch
+* Config Management tools: Ansible, chef, puppet, salt.
+* Miscellaneous: Elastic Search, logstash, kibana
+* Build tools: Apache maven, gradle
 
 ## Materials
 ### Youtube
