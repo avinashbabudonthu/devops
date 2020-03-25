@@ -12,6 +12,7 @@
 * Config Management tools: Ansible, chef, puppet, salt.
 * Miscellaneous: Elastic Search, logstash, kibana
 * Build tools: Apache maven, gradle
+* CircleCI
 
 ## Materials
 ### Youtube
