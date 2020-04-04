@@ -7,6 +7,7 @@
 * Kubernetes Crash Course for Java Developers on Google Cloud
 ### Pluralsight
 * Getting Started with Kubernetes
+* Docker and Kubernetes: The Big Picture
 ### Others
 * [Minikube Tutorial](https://kubernetes.io/docs/tutorials/hello-minikube/)
 * [Kubernetes Tutorial for Beginners | Kubernetes Tutorial](https://www.youtube.com/watch?v=NsDhBEsTTHs)
