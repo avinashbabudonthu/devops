@@ -3,7 +3,7 @@
 * docker run -d --name=grafana -p 3000:3000 grafana/grafana
 
 ## Prometheus Queries
-http_server_requests_seconds_count
-system_cpu_usage
-http_server_requests_seconds_max
-http_server_requests_seconds_sum
+* http_server_requests_seconds_count
+* system_cpu_usage
+* http_server_requests_seconds_max
+* http_server_requests_seconds_sum
