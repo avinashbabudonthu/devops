@@ -1,4 +1,6 @@
-# Examples
+# Kubernetes
+
+## Examples
 * YTD
 
 ## Materials
@@ -8,7 +10,8 @@
 ### Pluralsight
 * Getting Started with Kubernetes
 * Docker and Kubernetes: The Big Picture
-### Others
-* [Minikube Tutorial](https://kubernetes.io/docs/tutorials/hello-minikube/)
+### Youtube
 * [Kubernetes Tutorial for Beginners | Kubernetes Tutorial](https://www.youtube.com/watch?v=NsDhBEsTTHs)
+### Others
 * [Kubernetes from beginning](https://dev.to/azure/kubernetes-from-the-beginning-part-i-4ifd)
+* [Minikube Tutorial](https://kubernetes.io/docs/tutorials/hello-minikube/)
