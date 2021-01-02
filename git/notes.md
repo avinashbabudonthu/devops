@@ -48,5 +48,6 @@ git revert 0ad5a7a6
 	* Open source
 	* Bug tracker available
 * Reference
-	* Youtube - https://www.youtube.com/watch?reload=9&v=wpISo9TNjfU&ab_channel=IBMCloud
+	* Youtube - https://www.youtube.com/watch?reload=9&v=wpISo9TNjfU&ab_channel=IBMCloud \
+
 ![picture](images/what-is-git.jpg)
