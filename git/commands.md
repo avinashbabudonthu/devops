@@ -69,3 +69,52 @@ git add **/*.java
 ```
 git add **/*.java **/*.html
 ```
+* Make all files under src/main/java folder ready to commit (add to staging)
+```
+git add src/main/java/*
+```
+* Commit changes to local repository
+```
+git commit -m "commit message"
+```
+* Push the changes to current branch. Send all commits from local repository to remote repository
+```
+git push
+```
+* Push changes to master branch
+```
+git push origin master
+(or)
+git push -u origin master
+```
+* Push specific branch to your remote repository
+```
+git push origin [branch_name]
+```
+* Push all branches to your remote repository
+```
+git push --all origin
+```
+* Changed files and those you still need to add or commit
+```
+git status
+```
+* Revert all local changes
+```
+git reset --hard HEAD
+```
+* If you haven't connected your local repository to a remote server, To add a remote server to a local repository
+```
+git remote add origin [repo_url]
+```
+* Create a new local repository
+```
+git init
+```
+* Create new remote repository and check in local new repository to remote repository
+	* Create new repository in github website
+	* Copy new repository URL
+	* Go to new project location in command prompt
+	* git init
+	* git add *
+	* 
