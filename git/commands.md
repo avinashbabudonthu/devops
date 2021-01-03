@@ -62,15 +62,14 @@ git branch --delete branch_name
 ```
 
 * Merge branch-1 to current branch
-	* Merge master to develop
+```
+git merge branch-1
+```
+* Merge master to develop
 	* switch to develop
 		* git checkout develop
 	* merge master to develop
 		* git merge master
-```
-git merge branch-1
-```
-
 * Pull latest changes from current branch
 ```
 git pull
