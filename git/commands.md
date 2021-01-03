@@ -70,6 +70,10 @@ git merge branch-1
 		* git checkout develop
 	* merge master to develop
 		* git merge master
+* Merge master to branch-1
+```
+git merge branch-1 master
+```
 * Pull latest changes from current branch
 ```
 git pull
@@ -177,10 +181,6 @@ git remote -v
 * Get commit id
 ```
 git log
-```
-* merge master to branch-1
-```
-git merge branch-1 master
 ```
 * Remove files from the staging area
 ```
