@@ -202,3 +202,9 @@ git clean -fd
 ```
 git clean -x -d -f
 ```
+* Revert specific commit
+```
+git revert commit-id
+
+git revert 0ad5a7a6
+```
