@@ -1,10 +1,18 @@
 # Git Notes
 * What is version control?
+	* also called `Revision Control`, `Source Control`
+	* management changes like
+		* who made change by doing `blame`
+		* what is the change
+		* when is the change made
 	* 2 developers working on same code base. Writes code for different features. We need system that can track all the changes done by all developers on all files
 	* Version control is a system that records changes to file/files over time so that we can recall specific versions later
 	* versions can be recorded in repository
 	* there are `Local`, `Centralized`, `Distributed` version control systems
 * Why version control system?
+	* Keep track of changes
+	* able to go back to previous version
+	* easily add some one's work into our own (like merge)
 	* collaboration
 		* shared workspace
 		* realtime updates
