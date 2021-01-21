@@ -1,6 +1,3 @@
-# Examples
-* YTD
-
 ## Materials
 ### Pluralsight
 * Introduction to Git 
@@ -11,6 +8,9 @@
 * How Git Works
 * Getting Started with Git
 * Git Administration
+
+### Udemy
+* Git & GitHub Masterclass
 
 ### Others
 * [https://jeffkreeftmeijer.com/git-flow/](https://jeffkreeftmeijer.com/git-flow/)

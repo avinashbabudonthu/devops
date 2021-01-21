@@ -1,9 +1,9 @@
 # Git Notes
 * What is version control?
 	* also called `Revision Control`, `Source Control`
-	* management changes like
+	* management of changes like
 		* who made change by doing `blame`
-		* what is the change
+		* what is the change made
 		* when is the change made
 	* 2 developers working on same code base. Writes code for different features. We need system that can track all the changes done by all developers on all files
 	* Version control is a system that records changes to file/files over time so that we can recall specific versions later
@@ -59,3 +59,25 @@ git revert 0ad5a7a6
 	* Youtube - https://www.youtube.com/watch?reload=9&v=wpISo9TNjfU&ab_channel=IBMCloud
 
 ![picture](images/what-is-git.jpg)
+
+## Setup git workspace in windows
+* Download file [Setup-Git-Workspace-on-Windows.zip](Setup-Git-Workspace-on-Windows.zip)
+* Unzip it
+* open `Git Bash`
+* Enter command `start .`
+* copy below files/folder from above unzip folder to start folder opened with command `start .`
+	* terminal-config
+	* bash_profile
+* These file/folder names need to start with `.`. Do that renaming from Git Bash using below commands
+	* mv terminal-config .terminal-config
+	* mv bash_profile .bash_profile
+* check is files renamed correctly or not
+* Git Bash before making above changes\
+![picture](images/setup-workspace-in-windows-1.jpg)
+* Git Bash after making above changes from normal folder\
+![picture](images/setup-workspace-in-windows-2.jpg)
+* Git Bash after making above changes from any repository
+	* username
+	* branch
+	* current directory\
+![picture](images/setup-workspace-in-windows-3.jpg)
