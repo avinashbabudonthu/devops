@@ -110,3 +110,27 @@ git add file-1.txt
 git commit -m "commit-message"
 ```
 ![picture](images/first-commit-1.jpg)
+
+## Review file changes
+* Refer [First commit](#first-commit) before proceeding
+* make changes to `file-1.txt`
+* check for modified files
+```
+git status
+```
+* Once file is modified we can see `` * `` symbol in branch name. Means there are file changes in this branch
+* Check the file changes
+```
+git diff [file-name]
+git diff file-1.txt
+```
+* Add file to stage
+```
+git add file-1.txt
+```
+* Now `` * `` symbol changes to `+`
+* Commit the file
+```
+git commit -m "file 1 updated v1"
+```
+![picture](images/review-file-changes-1.jpg)
