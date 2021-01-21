@@ -134,3 +134,30 @@ git add file-1.txt
 git commit -m "file 1 updated v1"
 ```
 ![picture](images/review-file-changes-1.jpg)
+* If we want to diff file changes with specific commit, use below command
+```
+git diff [commit-id] -p
+```
+
+## Git configurations
+* These configurations used to identify who made changes while we commit
+* List of git configurations
+```
+git config --list
+git config -l
+```
+* By default email and username won't be set
+* Set username. `--global` is to set globally
+```
+git config --global user.name [our-name]
+git config --global "Avinash Babu Donthu"
+```
+* Set email. `--global` is to set globally
+```
+git config --global user.email [email-id]
+git config --global user.email my-email@gmail.com
+```
+* add editor. Here I am setting visual code as editor. `--wait` is to make git wait for editor to close
+```
+git config --global core.editor "code --wait"
+```
