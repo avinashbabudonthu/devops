@@ -81,3 +81,32 @@ git revert 0ad5a7a6
 	* branch
 	* current directory\
 ![picture](images/setup-workspace-in-windows-3.jpg)
+
+## First commit
+* Create any folder
+* Navigate to that folder in Git Bash
+* Execute command
+```
+git init
+```
+* check the files
+```
+ls
+```
+* check for hidden files. we can see folder named `.git`
+```
+ls -a
+```
+* By default `master` branch will be created as and when we did init
+* branch contains `#` sign. Means we have files that need to staged (make them ready to commit)
+* add file
+```
+git add [file-name]
+git add file-1.txt
+```
+* now we can see `#` sign changed to `+` means one file is staged and ready to commit
+* commit the staged changes
+```
+git commit -m "commit-message"
+```
+![picture](images/first-commit-1.jpg)
