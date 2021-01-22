@@ -150,7 +150,7 @@ git config -l
 * Set username. `--global` is to set globally
 ```
 git config --global user.name [our-name]
-git config --global "Avinash Babu Donthu"
+git config --global user.name "Avinash Babu Donthu"
 ```
 * Set email. `--global` is to set globally
 ```
@@ -161,3 +161,48 @@ git config --global user.email my-email@gmail.com
 ```
 git config --global core.editor "code --wait"
 ```
+
+## push local repo to git
+* Create repository in github
+* Copy the path of new repository
+* Open Git Bash in local repository
+* Add remote repository url to local repository
+	* `origin` is the name we gave to remote repository
+```
+git remote add origin [url]
+```
+* push changes to remote repository
+	* `master` is the branch name
+```
+git push origin master
+```
+
+## fatal: unable to access 'https://github.com/avinash4216/practice-1.git/': The requested URL returned error: 403
+* Go to window credential manager
+	* `control panel > user accounts > credential manager > windows credentials > Generic credentials`
+	* or
+	* Search for `Generic credentials` in `start`
+* Delete the existing git credentials
+
+## pull from remote repository
+* change any file in git repository (or) some other developer made and pushed changes to remote repository
+* pull changes to local
+```
+git pull origin master
+```
+
+## Set branch for tracking
+* If we want to pull and push to specific branch then no need to type remote and branch name every time if we execute following command
+```
+git branch --set-upstream-to=origin/master master
+```
+* After this we can directly pull with remote and branch name as below
+```
+git pull
+```
+
+## Fork github repository
+* we can copy repository from another account to our account using fork. Means everything in that repository are available to us like `code`, `branches` etc
+* we will have all commits until that repository is forked. After fork we will entirely different set of commits made by us to our copy of repository\
+![picture](images/fork-1.jpg)
+* owner will be able to continue with their commits. owner cannot access our commits. We cannot access owner's commits
