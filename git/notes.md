@@ -177,7 +177,7 @@ git remote add origin [url]
 git push origin master
 ```
 
-## fatal: unable to access 'https://github.com/avinash4216/practice-1.git/': The requested URL returned error: 403
+## fatal: unable to access url: The requested URL returned error: 403
 * Go to window credential manager
 	* `control panel > user accounts > credential manager > windows credentials > Generic credentials`
 	* or
