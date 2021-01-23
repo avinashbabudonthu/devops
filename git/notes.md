@@ -138,6 +138,10 @@ git commit -m "file 1 updated v1"
 ```
 git diff [commit-id] -p
 ```
+* If we want to compare different commits
+```
+git diff [commit-id-1] [commit-id-2]
+```
 
 ## Git configurations
 * These configurations used to identify who made changes while we commit
@@ -206,3 +210,17 @@ git pull
 * we will have all commits until that repository is forked. After fork we will entirely different set of commits made by us to our copy of repository\
 ![picture](images/fork-1.jpg)
 * owner will be able to continue with their commits. owner cannot access our commits. We cannot access owner's commits
+
+## Exploring logs
+* Open Git Bash in any git repository
+* To get the commits done till now
+```
+git log
+```
+* We will see
+	* commit id
+	* Author
+	* Date
+	* Commit message
+	* etc
+![picture](images/explore-logs-1.jpg)
