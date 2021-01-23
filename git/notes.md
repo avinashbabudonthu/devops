@@ -224,3 +224,36 @@ git log
 	* Commit message
 	* etc
 ![picture](images/explore-logs-1.jpg)
+
+## Getting details of commit
+* Get what happened/changed in specific commit
+```
+git show [commit-id]
+```
+* First commit has extra information like
+	* HEAD -> master
+	* origin/master
+	* origin/HEAD
+* We can use above information to get commit information of HEAD without commit-id
+```
+git show HEAD
+```
+* we can commit information of previous commits without commit-id by using `HEAD` as reference. For example we want to know commit information of 5th previous commits
+```
+git show HEAD~nthCommitNumberFromHeadCommit
+```
+```
+git show HEAD~5
+```
+![picture](images/explore-logs-2.jpg)
+* We can get commit information of specific file. This is like log of specific file
+```
+git annotate [file-name]
+```
+```
+git annotate notes.md
+```
+* we can integrate `git annotate` functionality into IDE. For that we need to install plugins specific to IDE. For example
+	* For Visual Code we have to install `GitLens`
+		* search for `git` in extensions
+		* we can find and install `GitLens`
