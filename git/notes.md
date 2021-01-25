@@ -142,6 +142,10 @@ git diff [commit-id] -p
 ```
 git diff [commit-id-1] [commit-id-2]
 ```
+* Add all files changes to stage in current directory
+```
+git add .
+```
 
 ## Git configurations
 * These configurations used to identify who made changes while we commit
@@ -257,3 +261,52 @@ git annotate notes.md
 	* For Visual Code we have to install `GitLens`
 		* search for `git` in extensions
 		* we can find and install `GitLens`
+
+## Reverting commits
+* Revert to previous version of file if we did not stage the file
+```
+git checkout -- [file-name]
+```
+* Revert many files changes in the current directory
+```
+git checkout -- .
+```
+* Revert to previous version of file we staged the file. We need to execute following 2 commands
+	* git reset - unstage the file
+	* git checkout - to revert the changes
+```
+git reset HEAD [file-name]
+git checkout -- [file-name]
+```
+* Revert the file to specific commit
+```
+git checkout [commit-id] [file-name]
+```
+
+## Branches
+* For every repo we have default branch `master`
+* we should always have working version of our project. This is where branches comes into picture
+* Always `master` branch should have fully working version
+* Have test branch
+	* Use this for internal testing or small group of users
+	* once tested then decide whether we merge this to master or not
+* Have `dev` branch
+	* create feature or bug fixes branches from dev branch\
+![picture](images/branches-1.jpg)
+![picture](images/branches-2.jpg)
+* Best practices in branches
+	* `master` default branch - Production branch
+	* create `test` from `master`
+	* create `develop` from `master`
+	* create `release` from `develop`
+	* create `feature` from `release`
+	* merge `feature` to `release`
+	* merge `release` to `develop`
+	* merge `develop` to `test`
+	* merge `test` to `master`
+	* deploy `master` to `production`
+* If we have many teams working on huge code base then
+	* Rather creating branch for each team and each team member create `fork` for each component
+	* each component can raise PR from their `fork` to actual repository
+* Pull Request - PR
+	* To merge changes from one branch to another branch
