@@ -7,6 +7,8 @@
 ### Udemy
 * Kubernetes Hands-On - Deploy Microservices to the AWS Cloud
 * Kubernetes Crash Course for Java Developers on Google Cloud
+* Kubernetes for the Absolute Beginners - Hands-on
+
 ### Pluralsight
 * Getting Started with Kubernetes
 * Docker and Kubernetes: The Big Picture
