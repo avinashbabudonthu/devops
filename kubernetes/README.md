@@ -3,11 +3,12 @@
 ## Examples
 * YTD
 
-## Materials
-### Udemy
+# Udemy Materials
+* Kubernetes for the Absolute Beginners - Hands-on
 * Kubernetes Hands-On - Deploy Microservices to the AWS Cloud
 * Kubernetes Crash Course for Java Developers on Google Cloud
-* Kubernetes for the Absolute Beginners - Hands-on
+* Certified Kubernetes Application Developer 2021
+* Kubernetes Certified Application Developer (CKAD) with Tests
 
 ### Pluralsight
 * Getting Started with Kubernetes
