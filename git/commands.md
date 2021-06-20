@@ -209,6 +209,7 @@ git revert commit-id
 git revert 0ad5a7a6
 ```
 * Store git credentials
+	* This command will create file named `.git-credentials` in `Users\[username]` folder
 ```
 git config --global credential.helper store
 ```
