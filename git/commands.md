@@ -212,4 +212,6 @@ git revert 0ad5a7a6
 	* This command will create file named `.git-credentials` in `Users\[username]` folder
 ```
 git config --global credential.helper store
+git config --global user.name "your username"
+git config --global user.password "your password"
 ```
