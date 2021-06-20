@@ -218,3 +218,11 @@ git revert 0ad5a7a6
 ```
 git config --global credential.helper store
 ```
+* Git configurations list
+```
+git config --list
+```
+* Git configurations list with origins
+```
+git config --list --show-origin
+```
