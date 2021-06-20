@@ -1,5 +1,5 @@
-## Materials
-### Pluralsight
+# Materials
+## Pluralsight
 * Introduction to Git 
 * Mastering Git 
 * Git Fundamentals 
@@ -12,7 +12,7 @@
 ### Udemy
 * Git & GitHub Masterclass
 
-### Others
+## Others
 * [https://jeffkreeftmeijer.com/git-flow/](https://jeffkreeftmeijer.com/git-flow/)
 * [https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/)
 * [https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
@@ -23,7 +23,7 @@
 * [Git Fork and Pull](https://reflectoring.io/github-fork-and-pull/)
 * [Markdown file reference](https://github.com/matiassingers/awesome-readme)
 
-### Youtube
+## Youtube
 * [Introduction-to-Git-&-GitHub.mp4](https://www.youtube.com/watch?v=0kRuGWBuS_o&ab_channel=edureka%21)
 * [Git-Tutorial-For-Beginners.mp4](https://www.youtube.com/watch?v=AQ9ksXoBAOg&ab_channel=Simplilearn)
 * [Git-Tutorial-for-Beginners-2.mp4](https://www.youtube.com/watch?v=WbwIoQYP6no&t=57s&ab_channel=Telusko)

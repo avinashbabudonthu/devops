@@ -208,3 +208,7 @@ git revert commit-id
 
 git revert 0ad5a7a6
 ```
+* Store git credentials
+```
+git config --global credential.helper store
+```
