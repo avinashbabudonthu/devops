@@ -229,3 +229,8 @@ git config --list --show-origin
 ```
 git remote set-url origin git@github.com:avinashbabudonthu/python.git
 ```
+* Remove remote branch from local repo
+```
+git remote remove <name>
+git remote remove heroku
+```
