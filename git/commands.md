@@ -234,3 +234,7 @@ git remote set-url origin git@github.com:avinashbabudonthu/python.git
 git remote remove <name>
 git remote remove heroku
 ```
+* Allow long paths
+```
+git config --system core.longpaths true
+```
