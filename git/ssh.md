@@ -17,13 +17,13 @@ Enter a file in which to save the key (/home/you/.ssh/id_rsa): [Press enter]
 cat ~/.ssh/id_rsa.pub
 ```
 * Copy the content
-* Open Github account and go to settings page
+* Open Github account and go to settings page\
 ![picture](images/github-settings.png)
-* On the side bar, click `SSH and GPG keys`
+* On the side bar, click `SSH and GPG keys`\
 ![picture](images/github-settings-ssh-gpc-key.png)
-* Click `New SSH key` button
+* Click `New SSH key` button\
 ![picture](images/new-ssh-key-button.jpg)
-* Enter `Title`, above copied public key
+* Enter `Title`, above copied public key\
 ![picture](images/new-ssh-details.jpg)
 * Click `Add SSH key` button
 * If prompted, confirm your GitHub password
@@ -38,7 +38,7 @@ Hi username! You've successfully authenticated, but GitHub does not provide shel
 ```
 * Congratulations, now you can use your connect to your github account using the ssh key !!!
 * Now you can clone your github repository using ssh command.
-* In github, copy the ssh clone link for a repository.
+* In github, copy the ssh clone link for a repository\
 ![picture](images/ssh-url.jpg)
 * Open terminal and go to the folder where you want to clone the repository. Then clone the repository using the clone command as below
 ```
