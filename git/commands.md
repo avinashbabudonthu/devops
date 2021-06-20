@@ -225,3 +225,7 @@ git config --list
 ```
 git config --list --show-origin
 ```
+* Update git remote url to existing local repo
+```
+git remote set-url origin git@github.com:avinashbabudonthu/python.git
+```
