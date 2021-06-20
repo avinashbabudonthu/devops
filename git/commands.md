@@ -170,6 +170,10 @@ git config --global user.email "test@gmail.com"
 ```
 git config --global user.name "User defined name"
 ```
+* configure the author password
+```
+git config --global user.password "your password"
+```
 * Will remove user credential details from local repository
 ```
 git config --local credential.helper ""
@@ -213,6 +217,4 @@ git revert 0ad5a7a6
 	* t16
 ```
 git config --global credential.helper store
-git config --global user.name "your username"
-git config --global user.password "your password"
 ```
