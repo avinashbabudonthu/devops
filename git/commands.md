@@ -238,13 +238,15 @@ git remote remove heroku
 ```
 git config --system core.longpaths true
 ```
-* Delete un pushed git commands
+* Delete un pushed git local commits
 ```
 git reset --hard origin
 git reset --hard origin/<branch>
 git reset --hard origin/feature/my-cool-stuff
 ```
-	* you want to get rid of the commit but keep the local work
+* Delete un pushed git local commits but keep the local work
 ```
+git reset --soft origin
 git reset --soft origin/<branch>
+git reset --soft origin/feature/my-cool-stuff
 ```
